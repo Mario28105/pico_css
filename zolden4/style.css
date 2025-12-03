@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;    
+    gap: 10px;
+  }
+
+  .right {
+    justify-content: center;   
+  }
+}
+img {
+     max-width: 100%;
+     height: auto;
+     float: right; 
+
+}
+.entete{
+  background-color: black;
+    color: white;
+}
+.title p
+{
+    text-align: center;
+    color: white;
+    background-image: url(Jeune-Femme-elegante-chapeau.jpg);
+    background-repeat: no-repeat;
+    background-position:0%;
+    background-size: cover;
+    height: 100%;
+    padding: 90px;
+}
+.petit-titre{
+    text-align: left;
+    color:black;
+    background-image: url(sac.jpg);
+    background-repeat: no-repeat;
+    background-position:0%;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    padding: 10px;
+}
+.titre-un{
+   text-align: center;
+   
+   
+}
+.icone .grid{
+  margin-top: 300px;
+}
+.t{
+    text-align: left;
+    color:black;
+    background-image: url(cardigan.jpg);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    height:250px;
+    width: 48%;
+    padding: 10px;
+    top: 60px;
+    margin-left: 52%; 
+    display: grid;
+    background-position: top left;
+    background-position: top;
+    margin-top: -500px;    
+}
+.tt{
+    text-align: left;
+    color:black;
+    background-image: url(costard.jpg);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    height: 250px;
+    width: 48%;
+    padding: 10px;
+    margin-left: 52%;
+    max-width: 100%;
+    
+ }
+
+img {
+    width: 100%;
+    max-width: 700px; 
+    height: auto;
+}
+
