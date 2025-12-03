@@ -1,0 +1,156 @@
+.nav-desktop{ 
+    display: flex;
+    gap: 1rem;
+}
+.nav-mobile{
+    display: none;
+}
+@media (max-width:768px) {
+    .nav-desktop{
+        display: none;
+    }
+    .nav-mobile{
+        display: flex;
+    }
+    summary{
+        cursor: pointer;
+    }
+    details summary::-webkit-details-marker{
+        display: none;
+    }
+    
+}
+@media (min-width:769px) {
+    .nav-desktop{
+        display: flex;
+    }
+    .nav-mobile{
+        display: none;
+    }
+}
+p{
+    text-align: center;
+}
+button{
+    border-radius: 999px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+h2{
+    text-align: center;
+    color: rgb(3, 44, 105);
+    margin-top: 6%;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    padding-top: 7%;
+     color: aliceblue;
+     font-size: 30px;
+}
+h4{
+    text-align: center;
+    text-decoration-thickness: 9%;
+    color: rgb(3, 44, 105);
+    font-style: italic;
+}
+h4 i{
+    border-bottom: 3px dotted;
+}
+h5{
+    color: aliceblue;
+}
+h6{
+    margin-left: 17%;
+}
+.container-fluid nav {
+    white-space: nowrap;
+}
+.container-fluid .grid-nav .nav .nav-desktop li a{
+    font-size: small;
+    color: black;
+}
+.container-fluid nav p{
+    white-space: nowrap;
+}
+.container-fluid #container1 .grid-1 .un{
+    background-color: rgba(0, 0, 555, 0.5);
+    background-position-x: right;
+    position: static bottom;
+    margin-top: 70%;
+    color: aliceblue;
+    height: auto;
+    margin-bottom: 4%;
+    width: 90%;
+    margin-left: 10%;
+}
+.container-fluid #container1 .grid-1 .un p{
+    color: aliceblue;
+    padding-bottom: 7%;
+}
+.container-fluid #container1 .grid-1 .un h3{
+    margin-bottom: 10%;
+}
+.container-fluid #container1 .grid-1 .un h3{
+    margin-top: 9%;
+}
+.container-fluid #container1 .grid-1{
+    background-image: url(image/WhatsApp\ Image\ 2025-11-28\ at\ 12.43.09.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.container-fluid .grid-2 p .button {
+    text-align: center;
+    background-color: black;
+    border: none;
+}
+.container-fluid .grid-2{
+    margin-top: 7%;
+}
+.container-fluid #container2 {
+    background-color: rgb(19, 19, 82);
+}
+.container-fluid #container2 .grid-3 .photo{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    width: 80%;
+}
+.container-fluid #container2 .grid-3 p{
+    color: aliceblue;
+}
+.container-fluid #container2 .grid-3 .text{
+    text-align: justify;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+.container-fluid #container2 .grid-3 p{
+    text-align: justify;
+}
+.container-fluid #container2 h3 .grid-3{
+    margin-top: 10%;
+}
+.container-fluid #container3 p{
+    max-width: 80%;
+    margin-left: 10%;
+}
+.container-fluid footer{
+    background-color:rgb(35, 35, 131);
+}
+.container-fluid footer hr{
+    margin-left: 2%;
+}
+.container-fluid footer h5{
+    text-align: center;
+}
+.container-fluid footer .grid-4 {
+    color: aliceblue;
+}
+.container-fluid footer .grid-4 p{
+    color: aliceblue;
+}
+.container-fluid footer p{
+    color: aliceblue;
+}
